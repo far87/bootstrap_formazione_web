@@ -10,9 +10,13 @@
 .navbar {
     border-bottom: 2px solid #F07D22; /* Cambia il colore e la larghezza del bordo secondo le tue necessità */
 }
+.carousel-item {
+    height: 780px;
+}
 
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1700px;
     }
+
 }
