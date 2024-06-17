@@ -1,0 +1,18 @@
+.mr-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #F07D22;
+}
+
+.navbar {
+    border-bottom: 2px solid #F07D22; /* Cambia il colore e la larghezza del bordo secondo le tue necessità */
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1700px;
+    }
+}
