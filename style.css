@@ -13,6 +13,10 @@
     border-bottom: 2px solid #F07D22; /* Cambia il colore e la larghezza del bordo secondo le tue necessità */
 }
 
+#logo {
+    width: 230px;
+    height: 80px;
+}
 
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -20,7 +24,7 @@
     }
 }
 
-@media (min-width: 500px) and (max-width: 765px) {
+@media (min-width: 360px) and (max-width: 765px) {
     .carousel-caption {
         
         right: 15%;
@@ -36,6 +40,11 @@
 
     .carousel-caption h1{
         font-size: 30px;
+    }
+
+    #logo {
+        width: 250px;
+        height: 65px;
     }
 
   }
