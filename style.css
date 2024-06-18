@@ -1,3 +1,5 @@
+
+
 .mr-auto {
     margin-left: auto !important;
     margin-right: 0 !important;
@@ -10,13 +12,30 @@
 .navbar {
     border-bottom: 2px solid #F07D22; /* Cambia il colore e la larghezza del bordo secondo le tue necessità */
 }
-.carousel-item {
-    height: 780px;
-}
+
 
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1700px;
     }
-
 }
+
+@media (min-width: 500px) and (max-width: 765px) {
+    .carousel-caption {
+        
+        right: 15%;
+        bottom: 1px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        
+    }
+
+    .carousel-caption h1{
+        font-size: 30px;
+    }
+
+  }
