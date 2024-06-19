@@ -14,8 +14,12 @@
 }
 
 #logo {
-    width: 230px;
+    width: 100px;
+    height: 60px;
+    border-radius: 4px;
+    /*    width: 230px;
     height: 80px;
+*/
 }
 
 @media (min-width: 1200px) {
@@ -43,8 +47,14 @@
     }
 
     #logo {
+        /*
         width: 250px;
         height: 65px;
+        */
+        width: 100px;
+        height: 60px;
+        border-radius: 10px;
+
     }
 
   }
