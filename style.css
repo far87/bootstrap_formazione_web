@@ -1,4 +1,10 @@
+p{
+    text-align: center;
+}
 
+h5{
+    text-align: center;
+}
 
 .mr-auto {
     margin-left: auto !important;
@@ -20,6 +26,15 @@
     /*    width: 230px;
     height: 80px;
 */
+}
+
+#foot{
+    background-color:#e3f2fd;
+    border-top: 2px solid #F07D22;
+}
+
+#foot p{
+    color: #F07D22;
 }
 
 @media (min-width: 1200px) {
